@@ -1,0 +1,10 @@
+{
+  "projects": {
+    "root-config": "https://github.com/vue-microfrontends/root-config.git",
+    "shared-dependencies": "https://github.com/vue-microfrontends/shared-dependencies.git",
+    "styleguide": "https://github.com/vue-microfrontends/styleguide.git",
+    "navbar": "https://github.com/vue-microfrontends/navbar.git",
+    "dogs-dashboard": "https://github.com/vue-microfrontends/dogs-dashboard.git",
+    "rate-dogs": "https://github.com/vue-microfrontends/rate-dogs.git"
+  }
+}
