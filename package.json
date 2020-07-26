@@ -9,6 +9,7 @@
   "author": "av8ta",
   "license": "MIT",
   "devDependencies": {
-    "meta": "^2.2.13"
+    "meta": "^2.2.13",
+    "meta-yarn": "^1.1.2"
   }
 }

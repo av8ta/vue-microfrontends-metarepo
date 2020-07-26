@@ -80,7 +80,7 @@ chalk@3.0.0, chalk@^3.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chalk@^2.4.2:
+chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
   integrity sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==
@@ -144,7 +144,7 @@ commander@2.20.3, commander@^2.9.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
 
-"commander@github:mateodelnorte/commander.js":
+commander@mateodelnorte/commander.js:
   version "2.15.1"
   resolved "https://codeload.github.com/mateodelnorte/commander.js/tar.gz/9060bf880b791cf39245d425f1e8a41a55616781"
   dependencies:
@@ -448,7 +448,7 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
-lodash@^4.17.12, lodash@^4.17.2:
+lodash@^4.17.12, lodash@^4.17.2, lodash@^4.17.4:
   version "4.17.19"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
   integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
@@ -521,6 +521,20 @@ meta-project@2.2.12:
     mkdirp "0.5.5"
     rimraf "2.7.1"
     tildify "^2.0.0"
+
+meta-yarn@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/meta-yarn/-/meta-yarn-1.1.2.tgz#b94d69dc2d92cd090797be14f830e66be90fa74c"
+  integrity sha512-/Tpoj403y/xHNCghy0QjCt6bUFJ2QLZ1JLxtKfBqHOsJ898E8V3GycLmr8Ai4wCHhtP2j1t3RuLU6pbRYSsJsQ==
+  dependencies:
+    async "^3.0.0"
+    chalk "^2.4.1"
+    commander "^2.9.0"
+    debug "^4.1.0"
+    get-meta-file "^1.0.0"
+    lodash "^4.17.4"
+    loop "^3.0.6"
+    meta-exec "^1.0.0"
 
 meta@^2.2.13:
   version "2.2.13"
